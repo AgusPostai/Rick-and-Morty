@@ -6,8 +6,7 @@ const SearchBar = ({ onSearch }) => {
 
    const handleChange = (event) => {
       setId(event.target.value)
-
-   }
+   };
 
    return (
       <div>
